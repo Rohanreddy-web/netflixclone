@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+:root{
+    --navwidth: 98vw;
+    --navheight:65vh;
+    --backgroundcolor: black;
+    --opacitydummybox: 0.56;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    color: white;
+}
+
+body{
+    background-color: black;
+}
+.flex{
+    width: var(--navwidth);
+    height: var(--navheight);
+    background-image: url("/images/img.jpg");
+}
+.dummy {
+    height: 65vh;
+    width: 100%;
+    background-color: var(--backgroundcolor);
+    position: absolute;
+    opacity: var(--opacitydummybox);
+    top: 0px;
+    margin: auto;
+  }
+.flex img{
+    width: 166px;
+    position: relative;
+    left: 50px;
+    top: 20px;
+    z-index: 10;
+}
+
+button {
+    height: 6vh;
+    width: 8vw;
+    position: relative;
+    z-index: 11;
+    text-align: center;
+    padding: 4px;
+    background-color:whitesmoke;
+    color:black;
+    font-weight:650;
+    font-family: "Poppins", sans-serif;
+    top:70%;
+    right:96px;
+    border-radius: 5px;
+    border: 1px solid black;
+    margin-left: 3px;
+  }
+  #id2{
+    background-color: rgba(128, 128, 128, 0.613);
+  }
+  .main{
+    width: 98vw;
+    height: 100vh;
+  }
+  .Trand{
+    height: 35vh;
+
+  }
+  .img{
+    width: 35vh;
+    height: 35vh;
+    object-fit: cover;
+    transition: all 1.5s ease-in-out;
+  }
+
+  .img:hover{
+    width: 50vh;
+  }
