@@ -1,2 +1,2 @@
-#This is a netflix clone 
-its under process
+This is a netflix clone 
+
